@@ -5,21 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./cmba.ico" type="image/x-icon">
     <title>Tienda</title>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 </head>
 
-<body>
-    <main>
-        <div class="max-w-6xl min-w-xl xs:hidden mx-auto min-h-screen items-center px-6">
+<body class="bg-[#2c2c2c] text-white">
+    <main class="max-w-[80%] mx-auto">
+        <div class="max-h-screen items-center px-6">
             <!--* Sup-NAV  -->
             <div class="grid grid-cols-2 py-3 font-mono font-semibold ">
                 <div class="grow-1/4 pl-6 tracking-widest">tienda@mail.com</div>
                 <div class="grow-1/2 text-right tracking-wide">+58-424-412.41.61</div>
             </div>
             <!--* NAV  -->
-            <nav class="min-w-screen max-w-screen py-2 px-5 bg-copy  md:flex md:items-center md:justify-between">
+            <nav class="py-2 px-5 bg-copy  flex md:items-center md:justify-between">
                 <div>
                     <span class="text-4xl text-white font-[Ubuntu] font-bold cursor-pointer">
                         <img class="h-10 inline rounded-full border-2 border-white"
@@ -58,8 +59,8 @@
                 </div>
             </div> -->
             <!--? PRODUCTOS -->
-            <div class="grid grid-rows-3 grid-flow-col">
-                <div class="row-span-2 col-span-3 bg-erieBlack max-w-full ">
+            <div class="grid grid-col-3">
+                <div class="col-span-3 bg-erieBlack max-w-full ">
                     <div class="px-6 py-2">
                         <img class="aspect-[3/4] max-h-fit" src="./img-tienda/5005065986_1p.webp" alt="">
                     </div>
@@ -70,13 +71,13 @@
                         <img class="w-1/4 max-h-fit" src="./img-tienda/5005065986_3p.webp" alt="">
                     </div>
                 </div>
-                <div class="row-span-3 col-span-2 bg-turquoise">
+                <div class="col-span-2 bg-turquoise">
                     <p>Laptop Thin & Light HP 240G8 14 pulgadas HD 4 GB 500 GB HDD</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis necessitatibus id magnam.
                         Blanditiis, doloribus! Non earum at accusamus quos dolorum labore dicta officiis, ut, inventore
                         dolor amet delectus nulla eaque?</p>
                 </div>
-                <aside class="row-span-3 col-span-1 bg-bluepantone">
+                <aside class="col-span-1 bg-bluepantone">
                     <p><a href="#">comprar</a></p>
                     <p><a href="#">comprar</a></p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis necessitatibus id magnam.
@@ -85,7 +86,22 @@
                 </aside>
             </div>
         </div>
+        <div class="grid grid-cols-3 max-h-screen mt-4">
+            <div>a</div>
+            <div>2</div>
+            <div>v</div>
+        </div>
     </main>
+    <script defer type="text/javascript">
+
+        window.addEventListener("load", function (event) {
+            const h = window.innerHeight
+            const w = window.innerWidth
+            console.log(h, w)
+        }
+        );
+
+    </script>
 
 </body>
 <!--! 14/09/2022 -->
