@@ -4,18 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TrifasicXtore</title>
+    <meta name="viewport" content=''"width=device-width, initial-scale=1.0">
+    <title>serverBKD</title>
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
     <main>
-        <div class="min-h-content min-w-720 max-w-screen-xl mx-auto items-center">
+        <div class="min-h-content min-w-960 max-w-screen-xl mx-auto items-center md:px-3">
+            <!--* Sup-NAV  -->
             <div class="grid grid-cols-2 py-3 font-mono font-semibold ">
                 <div class="grow-1/4 pl-6 tracking-widest">tienda@mail.com</div>
                 <div class="grow-1/2 text-right tracking-wide">+58-424-412.41.61</div>
             </div>
+            <!--* NAV  -->
             <nav class="max-w-screen py-2 px-5 bg-copy  md:flex md:items-center md:justify-between">
                 <div>
                     <span class="text-4xl text-white font-[Ubuntu] font-bold cursor-pointer">
@@ -42,7 +44,8 @@
                 </ul>
                 <button class="bg-bg text-white rounded-md px-6 py-2 my-6 z-[2] md:my-0">Iniciar Sesion</button>
             </nav>
-            <div class="grid grid-cols-3 divide-x items-center">
+            <!--* TAGS  -->
+            <div class="lg:grid lg:grid-cols-3 divide-x items-center md:hidden xs:hidden">
                 <div class="grow-1/3 pl-6">Categoria</div>
                 <div class="grow-1/3 text-center">Formas de Pago</div>
                 <div class="grow-1/3 text-right">
@@ -53,9 +56,11 @@
                     </ul>
                 </div>
             </div>
+            <!--* HERO  -->
             <div>
                 <img src="./img-tmp/babymania_050922.avif" alt="">
             </div>
+            <!--* CARRUSEL  -->
             <div class="grid grid-cols-4 py-2">
                 <div class="text-md text-center items-center gap-6">
                     <img src="./img-tmp/playeras_050922.avif" alt="playeras">
@@ -78,13 +83,16 @@
                     <p><a class="text-blue0 font-semibold" href="#">Hasta 25% de Descuento</a></p>
                 </div>
             </div>
-            <div>
-                <h2 class="text-3xl py-8 mt-6 mx-auto shadow">Cómputo hasta 7 MSI con tarjetas Suburbia
+            <!--* Call To Action   # 0001 -->
+            <div class=" bg-copy">
+                <h2 class="text-3xl px-5 py-8 mt-6 mx-auto shadow">Cómputo hasta 7 MSI con tarjetas Suburbia
                     <a href="#" class="text-xl underline">Ver más</a>
                 </h2>
             </div>
+            <!-- TODO Desplazamiento + Botones Nav -->
+            <!--* CARRUSEL #2 -->
             <div
-                class="grid grid-cols-12 gap-x-12 pb-12 mb-28 overflow-y-hidden overflow-x-auto min-h-[300px] max-w-[1720px] auto-cols-max">
+                class="grid grid-cols-12 gap-x-24 pb-12 overflow-y-hidden overflow-x-auto min-h-[300px] max-w-[1720px] auto-cols-max">
                 <div class=" aspect-[9/16] mx-5">
                     <img class="min-w-[150px]" src="./img-tmp/laptops/5004980311.webp" alt="01">
                     <p class="text-bg ">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
@@ -145,6 +153,131 @@
                     <p class="text-bg ">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                     <p class="text-bg font-bold mt-5"><a href="#">127.25$</a></p>
                 </div>
+            </div>
+            <!-- TODO Hover:Z-Index -->
+            <!-- <div class="grid grid-cols-3 py-2">
+
+                <div class="text-md text-center items-center gap-6">
+                    <img class="h-fit ease-in-out duration-300 hover:min-w-fit hover:z-[-5]"
+                        src="./img-tmp/modelos/playeras_080922_2.avif " alt="playeras">
+                    <p class="text-pal0 font-bold text-3xl sm:text-xl">Playeras</p>
+                    <p><a class="text-pal0 font-semibold" href="#">Hasta 12% de Descuento</a></p>
+                </div>
+                <div class="text-md text-center items-center">
+                    <img class="h-fit ease-in-out duration-300 hover:min-w-fit hover:z-[5]"
+                        src="./img-tmp/modelos/ropadeportiva_080922.avif" alt="ropadeportiva">
+                    <p class="text-pal0 font-bold text-3xl sm:text-xl">Ropa Deportiva</p>
+                    <p><a class="text-pal0 font-semibold" href="#">Hasta 12% de Descuento</a></p>
+                </div>
+                <div class="text-md text-center items-center">
+                    <img class="h-fit w-fit ease-in-out duration-300 hover:min-w-fit hover:z-[5]"
+                        src="./img-tmp/modelos/sudaderas_080922_2.avif" alt="sudaderas">
+                    <p class="text-pal0 font-bold text-3xl sm:text-xl">Sudaderas</p>
+                    <p><a class="text-pal0 font-semibold" href="#">Hasta 12% de Descuento</a></p>
+                </div>
+            </div> -->
+            <!--* Call To Action  # 0002 -->
+            <div class="bg-copy grid grid-col-2">
+                <div><img src="./img-tmp/cintillos_app_sub.webp" alt=""></div>
+                <div></div>
+            </div>
+            <!--* CARRUSEL #3 -->
+            <div class="grid grid-cols-3 py-2">
+                <div class="text-md text-center items-center gap-6">
+                    <img src="./img-tmp/modelos/playeras_080922_2.avif " alt="playeras">
+                    <p class="text-pal0 font-bold text-3xl sm:text-xl">Playeras</p>
+                    <p><a class="text-pal0 font-semibold" href="#">Hasta 12% de Descuento</a></p>
+                </div>
+                <div class="text-md text-center items-center">
+                    <img src="./img-tmp/modelos/ropadeportiva_080922.avif" alt="ropadeportiva">
+                    <p class="text-pal0 font-bold text-3xl sm:text-xl">Ropa Deportiva</p>
+                    <p><a class="text-pal0 font-semibold" href="#">Hasta 12% de Descuento</a></p>
+                </div>
+                <div class="text-md text-center items-center">
+                    <img src="./img-tmp/modelos/sudaderas_080922_2.avif" alt="sudaderas">
+                    <p class="text-pal0 font-bold text-3xl sm:text-xl">Sudaderas</p>
+                    <p><a class="text-pal0 font-semibold" href="#">Hasta 12% de Descuento</a></p>
+                </div>
+            </div>
+            <!-- TODO IMG PREFABRICADA  -->
+            <div>
+                <img src="./img-tmp/pago-efectivo-220822.avif" alt="">
+            </div>
+            <!--* CARRUSEL  -->
+            <div class="grid grid-cols-4 py-2">
+                <div class="text-md text-center items-center gap-6">
+                    <img src="./img-tmp/sb-click-2021.svg" alt="playeras">
+                </div>
+                <div class="text-md text-center items-center">
+                    <img src="./img-tmp/sb-descuento-2021.svg" alt="biberones">
+                </div>
+                <div class="text-md text-center items-center">
+                    <img src="./img-tmp/sb-envio-2021b.svg" alt="carriolas">
+                </div>
+                <div class="text-md text-center items-center">
+                    <img src="./img-tmp/sb-garantia-2021.svg" alt="mamelucos">
+                </div>
+            </div>
+            <!--! FOOTER -->
+            <div class="bg-[#555555] pt-3 pb-6 text-white grid grid-cols-4 text-center">
+                <div>
+                    <p class="text-sm">Soporte al Cliente</p>
+                    <ul class="gap-2 mt-2 pl-5 text-sm text-left">
+                        <li class="mb-3"><a class="text-xs" href="#">Devoluciones</a></li>
+                        <li class="mb-3"><a class="text-xs" href="#">Ayuda</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="text-sm">Nuestros Servicios</p>
+                    <ul class="gap-2 mt-2 text-xs text-left">
+                        <li class="mb-3"><a class="text-sm mb-1" href="#">Mi Crédito</a></li>
+                        <li class="mb-3"><a class="text-xs" href="#">Facturas</a></li>
+                        <li class="mb-3"><a class="text-xs" href="#">Sorteos</a></li>
+                        <li class="mb-3"><a class="text-xs" href="#">Servicios en tienda</a></li>
+                    </ul>
+                </div>
+                <div class="lg:block xs:hidden">
+                    <p>Acerca de</p>
+                    <ul class="gap-y-12 mt-2 text-xs text-left">
+                        <li class="mb-3"><a class="text-sm mb-6" href="#">¿Quiénes somos?</a></li>
+                        <li class="mb-3"><a class="text-xs mb-6" href="#">Bolsa de trabajo</a></li>
+                        <li class="mb-3"><a class="text-xs" href="#">Tienda Segura ve las medidas</a></li>
+                        <li class="mb-3"><a class="text-xs" href="#">Sostenibilidad</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p>Suscribete...</p>
+                    <ul class="gap-x-12 mt-2 text-xs text-left">
+                        <li class="mb-3 max-w-full bg-bg rounded-sm text-center"><a class="text-sm px-5 py-1"
+                                href="#">Suscribete</a>
+                        </li>
+                        <li class="mb-3"><a class="text-xs mb-6" href="#">Ventas por teléfono 55 5555-3333</a></li>
+                        <li class="mb-3"><a class="text-xs" href="#">Contáctanos vía WhatsApp o por Teléfono al
+                                5555553333</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--* Sub-FOOTER -->
+            <div class="bg-[#555555] mb-4 pb-2 text-white grid grid-cols-3 text-center border-t-2 border-white">
+                <div class="text-xxs">contacto@suburbia.com.mx</div>
+                <div class="flex text-xs">
+                    <div>Términos y condiciones</div>
+                    <div class="mx-4">Aviso de privacidad</div>
+                    <div>Mapa del sitio</div>
+                </div>
+                <div>REDES SOCIALES ICONOS</div>
+            </div>
+            <!--* CopyRight -->
+            <div class="flex mx-auto max-w-[75%] pb-2">
+                <p class="text-xs mr-2">Al navegar en este sitio aceptas el uso de cookies, las cuales nos ayudan a
+                    mejorar
+                    tu experiencia de
+                    navegación</p>
+                <a class="text-xs underline text-blue-800" href="#">mas informacion</a>
+            </div>
+            <!--* CC -->
+            <div class="flex mx-auto max-w-[75%] pb-2">
+                <p class="text-center">2022 serverBKD / Todos los derechos reservados</p>
             </div>
         </div>
     </main>
